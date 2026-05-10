@@ -1,0 +1,6 @@
+id,car_id,repair_type,mechanic,status,cost_estimate,final_cost,created_at,started_at,completed_at,service_bay_id
+1,2,Maintenance threshold exceeded,Robin Maes,Warning,180.00,,2026-05-06T08:15:00,,,
+2,3,Brake inspection,Elise De Smet,In Progress,420.00,,2026-05-06T09:20:00,2026-05-06T10:00:00,,2
+3,4,Oil service and filter,Nora Janssens,Completed,160.00,148.50,2026-05-05T13:10:00,2026-05-05T13:35:00,2026-05-05T15:05:00,1
+4,5,Maintenance threshold exceeded,Robin Maes,Warning,220.00,,2026-05-07T11:45:00,,,3
+5,6,Front suspension noise,Milan Peeters,Pending,650.00,,2026-05-07T14:25:00,,,4

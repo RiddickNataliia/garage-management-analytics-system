@@ -1,0 +1,26 @@
+.env
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Local databases and exports
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+
+# Python tooling
+.ruff_cache/
+.mypy_cache/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

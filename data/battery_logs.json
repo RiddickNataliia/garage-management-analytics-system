@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "car_id": 3,
+    "timestamp": "2026-04-18T17:30:00",
+    "old_health": 94.8,
+    "new_health": 94.7,
+    "reason": "Charge cycle recorded"
+  },
+  {
+    "id": 2,
+    "car_id": 3,
+    "timestamp": "2026-04-29T19:10:00",
+    "old_health": 94.7,
+    "new_health": 94.6,
+    "reason": "Fast charge cycle recorded"
+  },
+  {
+    "id": 3,
+    "car_id": 5,
+    "timestamp": "2026-04-12T08:45:00",
+    "old_health": 91.5,
+    "new_health": 91.4,
+    "reason": "Charge cycle recorded"
+  },
+  {
+    "id": 4,
+    "car_id": 5,
+    "timestamp": "2026-05-02T16:20:00",
+    "old_health": 91.4,
+    "new_health": 91.2,
+    "reason": "Garage diagnostic update"
+  },
+  {
+    "id": 5,
+    "car_id": 5,
+    "timestamp": "2026-05-07T18:05:00",
+    "old_health": 91.2,
+    "new_health": 91.1,
+    "reason": "Charge cycle recorded"
+  }
+]

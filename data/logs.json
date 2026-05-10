@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-05-05T13:10:00",
+    "entity_type": "repair",
+    "entity_id": 3,
+    "action": "created",
+    "old_value": null,
+    "new_value": {"car_id": 4, "repair_type": "Oil service and filter", "status": "Pending"}
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-05-05T15:05:00",
+    "entity_type": "repair",
+    "entity_id": 3,
+    "action": "completed",
+    "old_value": {"status": "In Progress", "final_cost": null},
+    "new_value": {"status": "Completed", "final_cost": 148.5}
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-05-06T08:15:00",
+    "entity_type": "car",
+    "entity_id": 2,
+    "action": "maintenance_warning_created",
+    "old_value": {"kilometrage": 174900, "maintenance_threshold": 175000},
+    "new_value": {"kilometrage": 182450, "repair_id": 1, "status": "Warning"}
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-05-06T10:00:00",
+    "entity_type": "repair",
+    "entity_id": 2,
+    "action": "status_changed",
+    "old_value": {"status": "Pending"},
+    "new_value": {"status": "In Progress", "service_bay_id": 2}
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-05-07T11:45:00",
+    "entity_type": "car",
+    "entity_id": 5,
+    "action": "maintenance_warning_created",
+    "old_value": {"kilometrage": 89950, "maintenance_threshold": 90000},
+    "new_value": {"kilometrage": 93400, "repair_id": 4, "status": "Warning"}
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-05-07T14:25:00",
+    "entity_type": "service_bay",
+    "entity_id": 4,
+    "action": "assigned",
+    "old_value": {"car_id": null, "is_available": true},
+    "new_value": {"car_id": 6, "repair_id": 5, "is_available": false}
+  }
+]
+

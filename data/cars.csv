@@ -1,0 +1,7 @@
+id,license_plate,brand,model,owner_name,kilometrage,maintenance_threshold,is_ev
+1,1-ABC-234,Toyota,Corolla,Nina Peeters,158200,160000,false
+2,2-DEF-987,Volkswagen,Golf,Samira El Idrissi,182450,175000,false
+3,1-EVQ-442,Tesla,Model 3,Jonas Vermeulen,64200,70000,true
+4,2-HJK-615,Renault,Clio,Kamiel De Graef,118900,120000,false
+5,1-PLG-808,Kia,Niro EV,Elias Pieters,93400,90000,true
+6,2-MNO-331,Ford,Transit,Garage Demo Fleet,221000,220000,false

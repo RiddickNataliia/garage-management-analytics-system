@@ -1,0 +1,6 @@
+id,name,bay_type,is_available,notes
+1,Bay 1,General,true,Standard lift for compact cars
+2,Bay 2,General,false,Occupied by brake inspection
+3,EV Bay,EV,false,High-voltage certified bay with charger
+4,Van Bay,Heavy,false,Large bay for vans and fleet vehicles
+5,Inspection Lane,Inspection,true,Quick diagnostics and intake checks
